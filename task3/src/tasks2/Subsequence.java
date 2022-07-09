@@ -6,7 +6,6 @@ public class Subsequence {
         while (oneNumber < 99) {
             System.out.println(oneNumber);
             oneNumber = oneNumber + 7;
-
         }
     }
 }

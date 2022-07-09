@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Rainbow {
     public static void findRainbowColor() {
         Scanner scanner = new Scanner(System.in);
-
-        while (true) {
-            int month = scanner.nextInt();
-            switch (month) {
+        String inputString;
+        while (!((inputString = scanner.next()).equals("exit"))) {
+            int numberColor = Integer.parseInt(inputString);
+            switch (numberColor) {
                 case 1:
                     System.out.println("Red");
                     break;
